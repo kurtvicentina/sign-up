@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Galada&family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Register</title>
+</head>
+<body class="inter">
+
+    <div class="main-container">
+        <div class="side-image">
+            <div class="logo-container">
+                <img src="images/black gold vintage cowboy hat logo.png" alt="" class="logo">
+                <!-- <h1 class="logo-text galada">Cowboy Western</h1> -->
+            </div>
+        </div>
+
+    <div class="form-container">
+        <div class="greeting-container left-padding">
+            <p>Are you ready to become a cowboy? Sign up now, the horses are ready...</p>
+            <p>You <i>know</i> you want to</p>
+        </div>
+
+        <form action="" class="left-padding" id="signUpForm">
+
+            <div class="formText"><p>Let's do this!</p></div>
+            <div class="input-row">
+            <div class="input-container">
+                <label for="firstName">FIRST NAME</label>
+                <input type="text" name="firstName" id="firstName" required>
+                <span></span>
+            </div>
+
+            <div class="input-container">
+                <label for="lastName">LAST NAME</label>
+                <input type="text" name="lastName" id="lastName" required>
+                <span></span>
+            </div>
+            </div>
+
+            <div class="input-row">
+            <div class="input-container">
+                <label for="userEmail">EMAIL</label>
+                <input type="email" name="userEmail" id="userEmail" required>
+                <span></span>
+            </div>
+
+            <div class="input-container">
+                <label for="contact">CONTACT</label>
+                <input type="tel" name="contact" id="contact" required>
+                <span></span>
+            </div>
+            </div>
+
+            <div class="input-row">
+            <div class="input-container">
+                <label for="userPass">PASSWORD</label>
+                <input type="password" name="userPass" id="userPass" required minlength="8">
+                <span class="error"></span>
+            </div>
+
+            <div class="input-container">
+                <label for="confirmPass">CONFIRM PASSWORD</label>
+                <input type="password" name="confirmPass" id="confirmPass" required>
+                <span class="error"></span>
+            </div>
+            </div>
+        </form>
+
+        <div class="left-padding">
+        <button class="register-button">Create Account</button>
+        </div>
+        <div class="login-link left-padding">
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
